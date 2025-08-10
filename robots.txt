@@ -1,0 +1,54 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://alkhokhah-gate.com/sitemap.xml
+
+# Crawl-delay for all bots
+Crawl-delay: 1
+
+# Allow specific important pages
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+Allow: /images/
+
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+
+# Disallow development files
+Disallow: /*.log
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /dist/
+
+# Allow social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yandex specific
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2

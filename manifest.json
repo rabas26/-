@@ -1,0 +1,118 @@
+{
+  "name": "مخطط بوابة الخوخة السكنية النموذجية",
+  "short_name": "بوابة الخوخة",
+  "description": "مخطط سكني نموذجي في أجمل مواقع اليمن - جوهرة البحر الأحمر",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f9fa",
+  "theme_color": "#3498db",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/images/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["business", "real-estate", "property"],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/images/screenshot-mobile.png",
+      "sizes": "375x667",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "عرض القطع المتاحة",
+      "short_name": "القطع",
+      "description": "استعراض جميع أنواع القطع المتاحة",
+      "url": "/#plots",
+      "icons": [
+        {
+          "src": "/images/shortcut-plots.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "تواصل معنا",
+      "short_name": "اتصال",
+      "description": "تواصل معنا للاستفسار أو الحجز",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "/images/shortcut-contact.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "موقع المشروع",
+      "short_name": "الموقع",
+      "description": "عرض موقع المشروع والمسافات",
+      "url": "/#location",
+      "icons": [
+        {
+          "src": "/images/shortcut-location.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
