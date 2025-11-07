@@ -1,0 +1,34 @@
+{
+  "default_destination": "/path/to/external/drive/backups",
+  "compression_type": "tar.gz",
+  "verify_checksum": true,
+  "automatic_backups": [
+    {
+      "name": "documents_backup",
+      "source": "/home/user/Documents",
+      "destination": "/media/external/backups",
+      "schedule": "daily",
+      "compression": "tar.gz",
+      "encrypt": false
+    },
+    {
+      "name": "photos_backup",
+      "source": "/home/user/Pictures",
+      "destination": "/media/external/backups",
+      "schedule": "weekly",
+      "compression": "zip",
+      "encrypt": true
+    }
+  ],
+  "exclude_patterns": [
+    "*.tmp",
+    "*.cache",
+    "__pycache__",
+    "node_modules"
+  ],
+  "retention_policy": {
+    "daily": 7,
+    "weekly": 4,
+    "monthly": 12
+  }
+}
